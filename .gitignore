@@ -1,0 +1,10 @@
+.idea
+node_modules
+/cos-nodejs-sdk-v5/*/package.json
+/cos-nodejs-sdk-v5/*/*.txt
+/cos-nodejs-sdk-v5/*/*.zip
+/cos-js-sdk-v5/*/package.json
+/cos-js-sdk-v5/*/config.js
+/cos-js-sdk-v4/*/package.json
+/*/start.sh
+/*/config.js

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cos-js-sdk-v5-demo</title>
+    <link rel="stylesheet" href="../lib/qunit-2.4.0.css">
+    <script src="../lib/promise-6.1.0.js"></script>
+    <script src="../lib/qunit-2.4.0.js"></script>
+    <script src="../lib/qunit-reporter-junit.js"></script>
+    <script src="./config.js"></script>
+</head>
+<body>
+
+<h1 id="qunit-header">cos-js-sdk-v5</h1>
+<h2 id="qunit-banner"></h2>
+<ol id="qunit-tests"></ol>
+<script>
+	QUnit.jUnitDone(function(report) {
+        console.log('[report]' + report.xml);
+        console.log('[exit]');
+	});
+</script>
+<script src="./node_modules/cos-js-sdk-v5/dist/cos-js-sdk-v5.js"></script>
+<script src="./test.js"></script>
+
+</body>
+</html>

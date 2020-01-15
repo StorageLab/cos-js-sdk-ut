@@ -1,0 +1,11 @@
+<testsuite name="Mocha Tests" tests="9" failures="0" errors="0" skipped="0" timestamp="Wed, 07 Feb 2018 03:07:49 GMT" time="41.219">
+    <testcase classname="test1" time="0.759"/>
+    <testcase classname="test2" time="0.299"/>
+    <testcase classname="test3" time="2.393"/>
+    <testcase classname="test4" time="2.254"/>
+    <testcase classname="test5" time="1.128"/>
+    <testcase classname="test6" time="2.129"/>
+    <testcase classname="test7" time="2.271"/>
+    <testcase classname="test8" time="0.89"/>
+    <testcase classname="test9" time="0.478"/>
+</testsuite>

@@ -1,0 +1,28 @@
+{
+  "name": "cos-js-sdk-ut",
+  "version": "1.0.0",
+  "main": "test.sh",
+  "scripts": {
+    "tools-init": "cd ./tools && tnpm i",
+    "delete-old": "cd ./tools && \"D:\\Program Files\\Git\\git-bash.exe\" ./start.sh",
+    "cos-nodejs-sdk-v5": "cd ./cos-nodejs-sdk-v5 && \"D:\\Program Files\\Git\\git-bash.exe\" ./start.sh",
+    "cos-js-sdk-v5": "cd ./cos-js-sdk-v5 && sh ./test.sh",
+    "cos-js-sdk-v4": "cd ./cos-js-sdk-v4 && sh ./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StorageLab/cos-js-sdk-ut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StorageLab/cos-js-sdk-ut/issues"
+  },
+  "homepage": "https://github.com/StorageLab/cos-js-sdk-ut#readme",
+  "description": "",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.3.7",
+    "dev-server": "0.0.2"
+  }
+}

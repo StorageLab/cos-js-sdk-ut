@@ -1,0 +1,49 @@
+<testsuite name="Mocha Tests" tests="47" failures="0" errors="0" skipped="0" timestamp="Wed, 07 Feb 2018 03:10:13 GMT" time="46.787">
+<testcase classname="getService()" name="能正常列出 Bucket" time="1.086"/>
+<testcase classname="getAuth()" name="通过获取签名能正常获取文件" time="0.297"/>
+<testcase classname="putBucket()" name="正常创建 bucket" time="1.208"/>
+<testcase classname="getBucket()" name="正常获取 bucket 里的文件列表" time="0.233"/>
+<testcase classname="putObject()" name="fs.createReadStream 创建 object" time="2.195"/>
+<testcase classname="putObject()" name="fs.readFileSync 创建 object" time="2.244"/>
+<testcase classname="putObject()" name="捕获输入流异常" time="1.097"/>
+<testcase classname="getObject()" name="stream" time="2.291"/>
+<testcase classname="getObject()" name="body" time="2.122"/>
+<testcase classname="sliceUploadFile()" name="正常分片上传 object" time="0.817"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header ACL:private" time="0.344"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header ACL:public-read" time="0.451"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header ACL:public-read-write" time="0.44"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header GrantRead:1001,1002" time="0.291"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header GrantWrite:1001,1002" time="0.434"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header GrantFullControl:1001,1002" time="0.293"/>
+<testcase classname="BucketAcl" name="putBucketAcl() header ACL:public-read, GrantFullControl:1001,1002" time="0.367"/>
+<testcase classname="BucketAcl" name="putBucketAcl() xml" time="0.428"/>
+<testcase classname="BucketAcl" name="putBucketAcl() xml2" time="0.436"/>
+<testcase classname="BucketAcl" name="putBucketAcl() decodeAcl" time="0.382"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header ACL:private" time="0.461"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header ACL:default" time="0.229"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header ACL:public-read" time="0.272"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header ACL:public-read-write" time="0.307"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header GrantRead:1001,1002" time="0.394"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header GrantWrite:1001,1002" time="0.387"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header GrantFullControl:1001,1002" time="0.228"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() header ACL:public-read, GrantRead:1001,1002" time="0.338"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() xml" time="0.404"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() xml2" time="0.351"/>
+<testcase classname="ObjectAcl" name="putObjectAcl() decodeAcl" time="0.343"/>
+<testcase classname="BucketCors" name="deleteBucketCors()" time="2.145"/>
+<testcase classname="BucketCors" name="putBucketCors(),getBucketCors()" time="2.145"/>
+<testcase classname="BucketCors" name="putBucketCors() old" time="2.083"/>
+<testcase classname="BucketCors" name="putBucketCors() old" time="2.141"/>
+<testcase classname="BucketCors" name="putBucketCors() multi" time="2.143"/>
+<testcase classname="BucketTagging" name="putBucketTagging(),getBucketTagging()" time="2.365"/>
+<testcase classname="BucketTagging" name="deleteBucketTagging()" time="2.211"/>
+<testcase classname="BucketTagging" name="putBucketTagging() multi" time="2.345"/>
+<testcase classname="BucketPolicy" name="putBucketPolicy(),getBucketPolicy()" time="0.649"/>
+<testcase classname="BucketPolicy" name="putBucketPolicy() s3" time="0.643"/>
+<testcase classname="BucketLocation" name="getBucketLocation()" time="0.091"/>
+<testcase classname="BucketLifecycle" name="deleteBucketLifecycle()" time="2.245"/>
+<testcase classname="BucketLifecycle" name="putBucketLifecycle(),getBucketLifecycle()" time="2.15"/>
+<testcase classname="BucketLifecycle" name="putBucketLifecycle() multi" time="2.232"/>
+<testcase classname="params check" name="Region" time="0"/>
+<testcase classname="params check" name="Region" time="0"/>
+</testsuite>

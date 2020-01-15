@@ -1,0 +1,45 @@
+<testsuite name="Mocha Tests" tests="43" failures="0" errors="0" skipped="0" timestamp="Wed, 07 Feb 2018 03:08:37 GMT" time="47.499">
+<testcase classname="getService()" name="能正常列出 Bucket" time="1.695"/>
+<testcase classname="getAuth()" name="通过获取签名能正常获取文件" time="0.307"/>
+<testcase classname="putBucket()" name="正常创建 bucket" time="1.368"/>
+<testcase classname="getBucket()" name="正常获取 bucket 里的文件列表" time="0.331"/>
+<testcase classname="putObject()" name="fs.createReadStream 创建 object" time="2.187"/>
+<testcase classname="putObject()" name="fs.readFileSync 创建 object" time="2.28"/>
+<testcase classname="putObject()" name="捕获输入流异常" time="1.071"/>
+<testcase classname="getObject()" name="stream" time="2.188"/>
+<testcase classname="getObject()" name="body" time="2.209"/>
+<testcase classname="sliceUploadFile()" name="正常分片上传 object" time="1.725"/>
+<testcase classname="BucketACL" name="putBucketAcl() header ACL:private" time="0.367"/>
+<testcase classname="BucketACL" name="putBucketAcl() header ACL:public-read" time="0.338"/>
+<testcase classname="BucketACL" name="putBucketAcl() header ACL:public-read-write" time="0.411"/>
+<testcase classname="BucketACL" name="putBucketAcl() header GrantRead:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.402"/>
+<testcase classname="BucketACL" name="putBucketAcl() header GrantWrite:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.432"/>
+<testcase classname="BucketACL" name="putBucketAcl() header GrantFullControl:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.288"/>
+<testcase classname="BucketACL" name="putBucketAcl() header ACL:public-read, GrantFullControl:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.499"/>
+<testcase classname="BucketACL" name="putBucketAcl() xml" time="0.287"/>
+<testcase classname="BucketACL" name="putBucketAcl() xml2" time="0.426"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header ACL:private" time="0.435"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header ACL:public-read" time="0.367"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header ACL:public-read-write" time="0.362"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header GrantRead:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.301"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header GrantWrite:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.369"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header GrantFullControl:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.307"/>
+<testcase classname="ObjectACL" name="putObjectAcl() header ACL:public-read, GrantRead:uin=&quot;1001&quot;, uin=&quot;1002&quot;" time="0.273"/>
+<testcase classname="ObjectACL" name="putObjectAcl() xml" time="0.359"/>
+<testcase classname="ObjectACL" name="putBucketAcl() xml2" time="0.3"/>
+<testcase classname="BucketCORS" name="deleteBucketCors()" time="2.222"/>
+<testcase classname="BucketCORS" name="putBucketCors(),getBucketCors()" time="2.207"/>
+<testcase classname="BucketCORS" name="putBucketCors() old" time="2.22"/>
+<testcase classname="BucketCORS" name="putBucketCors() old" time="2.208"/>
+<testcase classname="BucketCORS" name="putBucketCors() multi" time="2.081"/>
+<testcase classname="BucketTagging" name="putBucketTagging(),getBucketTagging()" time="2.366"/>
+<testcase classname="BucketTagging" name="deleteBucketTagging()" time="2.224"/>
+<testcase classname="BucketTagging" name="putBucketTagging() multi" time="2.265"/>
+<testcase classname="BucketPolicy" name="putBucketPolicy(),getBucketPolicy()" time="0.506"/>
+<testcase classname="BucketPolicy" name="putBucketPolicy() s3" time="0.528"/>
+<testcase classname="BucketLocation" name="getBucketLocation()" time="0.111"/>
+<testcase classname="BucketLifecycle" name="deleteBucketLifecycle()" time="2.18"/>
+<testcase classname="BucketLifecycle" name="putBucketLifecycle(),getBucketLifecycle()" time="2.235"/>
+<testcase classname="BucketLifecycle" name="putBucketLifecycle() multi" time="2.235"/>
+<testcase classname="params check" name="Region" time="0"/>
+</testsuite>
